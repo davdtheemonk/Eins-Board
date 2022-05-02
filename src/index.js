@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom';
 import { Route,Routes, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Home from "./Home"
-import Template from "./Template"
+
 import Talkpython from './Talkpython'
 import Docs from "./Docs"
 import Dashboard  from './Dashboard';
 import Signup from "./Signup"
 import Login from "./Login"
-import Course from "./Course"
-import PythonMore from "./PythonMore"
+
 import { store } from './app/store';
 import { Provider } from 'react-redux';
 import Hire from "./Hire"
