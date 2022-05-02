@@ -8,7 +8,7 @@ export default function Start(){
             <div className="start_cont_btns">
                 <button 
                 onClick={()=>
-                window.location="https://what-the-bug.tk/portal}
+                window.location="https://what-the-bug.tk/portal"}
                 className="start_cont_startbtn">Get Started</button>
             
                 </div>
