@@ -4,7 +4,7 @@ import { Route,Routes, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Talkpython from './Talkpython'
+
 import Docs from "./Docs"
 import Dashboard  from './Dashboard';
 import Signup from "./Signup"
@@ -32,7 +32,7 @@ ReactDOM.render(
   <BrowserRouter>
   <Routes>
     <Route path='/' element={<Hire />}/>
-   <Route path='/community' element={<Talkpython></Talkpython>}/>
+  
     <Route path='/documentation' element={<Docs />}/>
  <Route path='/portal' element={<Dashboard />}/>
     <Route path='/portal/ws/:id' element={<Dashboard />}/>
