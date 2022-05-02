@@ -1,0 +1,288 @@
+.hire-cont{
+    background-color:black;
+    flex:1;
+    width: 100%;
+  
+    height:100vh;
+    overflow: hidden;
+  
+
+    
+}@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+.circles{
+    position: absolute;
+    top: 0;
+  
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+.temp-where{
+    color:white;
+}
+.hire_over_cont{
+    overflow:hidden;
+    
+}
+.hire_header2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:gray;
+    background-color: black;
+    margin-bottom: auto;
+   
+ 
+  
+    padding:5px;
+   
+    
+
+
+}
+.temp-icon2{
+    margin-left:7px;
+    width: 50px;
+    height:50px
+}
+.temp-icon3{
+    margin-left: auto;
+    width: 300px;
+    height: 300px;
+    margin-top:150px;
+ 
+}
+.hire_home_image{
+   display: flex;
+}
+
+.hire_home_cont{
+    margin-top:80px;
+    height: auto;
+    letter-spacing: 3px;
+    background-color: black;
+}
+.hire_home_btns{
+    display:flex;
+
+   
+    width: 350px;
+    background-color: black;
+    justify-content: space-around;
+     
+    flex-direction:row;
+}
+.hire_home_image{
+    margin-left:auto;
+}
+.hire_home_cont>h4{
+    background:-webkit-linear-gradient(rgb(40, 70, 151),rgb(192, 187, 187));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:90px;
+    font-weight: 400;
+}
+.hire_home_cont{
+    margin-left: 6px;
+    margin-bottom: 40px;
+
+}
+.hire_home_desc>p{
+    color: white;
+}
+.hire_home_desc{
+    max-width: auto;
+}
+@media screen and (min-width: 768px){
+    .hire_home_desc{
+      
+        width:600px;
+    }
+    .hire-cont{
+        display: flex;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .hire-cont{
+        background-color: black;
+    }
+    .hire_home_cont>h4{
+    font-weight: 200;    
+    }
+    .hire_home_cont{
+        margin-left: 46px;}
+
+  
+}
+
+.hire_home_startbtn{
+    background:linear-gradient(rgb(14, 65, 143),rgb(252, 252, 252));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid -webkit-linear-gradient(rgb(40, 70, 151),rgb(192, 187, 187));
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    color:white;
+    margin-top: 20px;
+    border-radius: 30px;
+    touch-action: manipulation;
+
+}
+.hire_home_demobtn{
+    background:linear-gradient(rgb(14, 65, 143),rgb(252, 252, 252));
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid -webkit-linear-gradient(to right,rgb(122, 18, 91) 60%,rgb(146, 31, 60));
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    margin-top: 20px;
+    color:white;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}

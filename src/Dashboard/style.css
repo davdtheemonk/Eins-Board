@@ -1,0 +1,10 @@
+.dash_container{
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 768px){
+
+}
