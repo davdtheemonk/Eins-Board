@@ -47,6 +47,9 @@
         margin-top: 55px;
 
     }
+    .hiremore_desc_p1{
+    max-width:auto;
+    }
     .hiremore_course_cont>h4{
         font-size: 33px;
     }
