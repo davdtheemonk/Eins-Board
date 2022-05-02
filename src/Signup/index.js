@@ -60,7 +60,7 @@ return(
        
         <Grid className="main-icons" align="center">
             <img className="main-icon"src="/icon-dev.png"/>  
-            <h2>Eins</h2>
+            <h2>Eins Board</h2>
        
         </Grid>
         <div className="customBtn" onClick={signInWithGoogle}>
@@ -75,7 +75,7 @@ return(
         <Button style={btnStyle}  onClick={() => {
               setLoader(!loader)
               setTimeout(()=>{
-                  setLoader(loader=>!loader)},2600);
+                  setLoader(loader=>!loader)},5000);
                   registerWithEmailAndPassword(name,email, password) 
                   setLoader(!loader)
            
