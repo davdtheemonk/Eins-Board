@@ -14,7 +14,7 @@ export default function Collab(){
                         The platfom offers the best tools to drive conclusions.We offer analytics to instructors who have registered courses.Students can also have timely reports on their contributions.
                     </p>
                     <hr></hr>
-                    <Link to="portal">Try Now -></Link>
+                    <Link to="https://about.what-the-bug.tk">Try Now -></Link>
                 </div>
             </div>
 
