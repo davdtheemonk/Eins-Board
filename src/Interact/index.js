@@ -12,7 +12,7 @@ export default function Interact(){
                     The platform is designed to offer various tools that foster interaction.Tools include video confrencing,student or users collaboration and live coding assesments and courses.
                 </p>
                 <hr></hr>
-                <Link to="/portal">Try Now -></Link>
+                <a href="https://about.what-the-bug.tk">Try Now -></a>
             </div>
         <img className="interact_img" src ="interact.svg"/>
         </div>
