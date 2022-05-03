@@ -13,7 +13,7 @@ export default function Flexible(){
                         allows the instructor to set maximum time for students to access course material and assessments.
                     </p>
                     <hr></hr>
-                    <Link to="/portal">Try Now -></Link>
+                    <Link to="https://about.what-the-bug.tk">Try Now -></Link>
                 </div>
             <img className="flexible_img" src ="time.svg"/>
             </div>
