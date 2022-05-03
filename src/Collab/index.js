@@ -16,7 +16,7 @@ export default function Collab(){
 
                     </p>
                     <hr></hr>
-                    <Link to="https://about.what-the-bug.tk">Try Now -></Link>
+                    <a href="https://about.what-the-bug.tk">Try Now -></a>
                 </div>
             </div>
 
