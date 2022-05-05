@@ -55,7 +55,7 @@ export default function Hire(){
                 
                 <div className="hire_home_btns">
                 <button className="hire_home_startbtn" onClick={()=>{
-                    window.location="https://what-the-bug.tk/portal"
+                    window.location="https://what-the-bug.tk/login"
                 }}>Get Started</button>
                 <button className="hire_home_demobtn">Request Demo</button>
                 </div>
